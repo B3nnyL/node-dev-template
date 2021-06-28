@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "tsnd --respawn src/index.ts",
-    "lint": "eslint src/ test/",
+    "lint": "eslint **/*.ts",
     "lint:fix": "eslint --fix",
     "build": "tsc"
   },
